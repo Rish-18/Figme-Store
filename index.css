@@ -53,7 +53,16 @@
   font-size: 1em;
 }
 
-.navbar button:hover button:not(#states-dropdown) {
+/* .navbar button:hover {
+  background-color: black;
+  color: white;
+} */
+.navbar button#state-dropdown:hover {
+  background-color: transparent; 
+  color: white; 
+}
+
+.navbar button:hover:not(#states-dropdown) {
   background-color: black;
   color: white;
 }
