@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <div>
+      <form
+        class="flexc"
+        method="post"
+        name="myform"
+        onsubmit="return validateform()"
+      >
+        <h1>Confirm Order :</h1>
+        <br />
+        <div id="fname">
+          <input type="text" name="fname" placeholder="First Name" />
+          <span class="formerror"></span>
+        </div>
+        <div id="lname">
+          <input type="text" name="lname" placeholder="Last Name" />
+          <span class="formerror"></span>
+        </div>
+        <div id="iemail">
+          <input type="email" name="femail" placeholder="Email Address" />
+          <span class="formerror"></span>
+        </div>
+        <div id="iphone">
+          <input type="tel" name="fphone" placeholder="Phone Number" />
+          <span class="formerror"></span>
+        </div>
+        <div id="iaddress">
+          <textarea name="faddress" placeholder="Address"></textarea>
+          <span class="formerror textarea-error"></span>
+        </div>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="./contact.js"></script>
+  </body>
+</html>
