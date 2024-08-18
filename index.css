@@ -65,7 +65,6 @@
 .navbar button:hover:not(#states-dropdown) {
   background-color: black;
   color: white;
-  background-color: #32cd32;
 }
 
 .search-bar {
