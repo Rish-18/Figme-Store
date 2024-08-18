@@ -77,9 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         decreaseButton.disabled = true;
                         addToCartButton.disabled = true;
                     }
-                    if (quantity < product.stock) {
-                        increaseButton.disabled = false;
-                    }
+                 z
                 });
 
                 addToCartButton.addEventListener('click', () => {

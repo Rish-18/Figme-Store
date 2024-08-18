@@ -1,13 +1,9 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f4f8;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  padding: 50px;
+  
+  min-height: 100vh;
 }
 
 h1 {
@@ -23,11 +19,11 @@ form {
   max-width: 500px;
   width: 100%;
   box-sizing: border-box;
+  margin:0 auto;
 }
 
 form div {
   margin-bottom: 20px;
-  position: relative;
 }
 
 form div input,
@@ -41,14 +37,12 @@ form div textarea {
 }
 
 form div textarea {
-  resize: vertical;
   height: 80px;
+  max-width: math(textarea);
 }
 
 form div .formerror {
-  position: absolute;
-  top: 45px;
-  left: 0;
+ 
   color: #e74c3c;
   font-size: 12px;
 }
@@ -73,8 +67,4 @@ form button:hover {
   background-color: #2980b9;
 }
 
-@media (max-width: 425px) {
-  form {
-    margin-top: 100px;
-  }
-}
+
